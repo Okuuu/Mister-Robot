@@ -71,10 +71,6 @@ public class mrRobot extends Robot {
     }
 
     void onHitRobot(HitRobotEvent event) {
-        if (event.getBearing() > -90 && event.getBearing() <= 90) {
-            back(100);
-        } else {
-            ahead(100);
-        }
+        back(10);
     }
 }
