@@ -4,6 +4,7 @@ import robocode.*;
 public class mrRobot extends Robot {
     public void run() {
         while (true) {
+			turnGunRight(360);		
             ahead(20);
             turnGunRight(360);
 			ahead(20);
@@ -70,7 +71,7 @@ public class mrRobot extends Robot {
 		turnRight(30);
     }
 
-    void onHitRobot(HitRobotEvent event) {
+   	public void onHitRobot(HitRobotEvent event) {
         back(10);
     }
 }
