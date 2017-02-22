@@ -7,8 +7,11 @@ public class mrRobot extends Robot {
             ahead(100);
             turnGunRight(360);
             turnRight(90);
-            setBodyColor(Color red);
-            setBulletColor(Color black);
+			setBodyColor(new Color(0, 200, 0));
+			setGunColor(new Color(0, 150, 50));
+			setRadarColor(new Color(0, 100, 100));
+			setBulletColor(new Color(255, 255, 100));
+			setScanColor(new Color(255, 200, 200));
         }
     }
 
@@ -31,6 +34,8 @@ public class mrRobot extends Robot {
         {
             fire(0.5);
         }
+        turnRight(30);
+		ahead(50);
     }
 
 
