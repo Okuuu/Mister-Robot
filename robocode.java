@@ -8,8 +8,8 @@ public class mrRobot extends Robot {
             turnGunRight(360);
             turnGunRight(360);
             turnRight(90);
-            setBodyColor (Color.red);
-            setBulletColor (Color.black);
+            setBodyColor (Color red);
+            setBulletColor (Color black);
         }
     }
 
