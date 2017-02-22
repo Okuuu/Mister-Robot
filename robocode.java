@@ -22,4 +22,6 @@ public class mrRobot extends Robot {
     }
 }
 
-    //public void onHitWall()
+    public void onHitWall(hitWallEvent e){
+        turnRight(90);
+    }
