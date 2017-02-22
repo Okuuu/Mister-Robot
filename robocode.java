@@ -6,7 +6,6 @@ public class mrRobot extends Robot {
         while (true) {
             ahead(100);
             turnGunRight(360);
-            turnGunRight(360);
             turnRight(90);
             setBodyColor(Color red);
             setBulletColor(Color black);
@@ -14,7 +13,7 @@ public class mrRobot extends Robot {
     }
 
     public void onScannedRobot(ScannedRobotEvent e) {
-
+        fire(3);
     }
 
 
