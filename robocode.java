@@ -60,7 +60,8 @@ public class mrRobot extends Robot {
             ahead(20);
         }
         else{
-            get
+            turnRight(5);
+            ahead(5);
         }
 
     }
