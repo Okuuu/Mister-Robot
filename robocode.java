@@ -5,10 +5,15 @@ public class mrRobot extends Robot {
     public void run() {
 	
         while (true) {
-            ahead(100);
-            turnGunRight(360);
-			ahead(100);
-            turnRight(120);		
+            if(getOthers != 1){
+                ahead(100);
+                turnGunRight(360);
+                turnRight(120);
+                ahead(100);
+            }
+            else{
+             turnGunRight(360);
+            }
         }
     }
 
