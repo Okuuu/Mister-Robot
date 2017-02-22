@@ -17,7 +17,9 @@ public class mrRobot extends Robot {
         fire(3);
     }
 
-    public void onHitByBullet{
+    public void onHitByBullet(hitByBulletEvent e){
         back(200);
     }
 }
+
+    //public void onHitWall()

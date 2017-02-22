@@ -20,11 +20,13 @@
       <file leaf-file-name="robocode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robocode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="600">
+              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="e#375#376#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -484,12 +486,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487752071083</updated>
-      <workItem from="1487752072291" duration="1234000" />
+      <workItem from="1487752072291" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1234000" />
+    <option name="totallyTimeSpent" value="1686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -538,11 +540,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/robocode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="600">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
             <element signature="e#375#376#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
