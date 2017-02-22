@@ -13,7 +13,24 @@ public class mrRobot extends Robot {
     }
 
     public void onScannedRobot(ScannedRobotEvent e) {
-        fire(3);
+        double distance = e.getDistance();
+
+        if(distance<200)
+        {
+            fire(3.5);
+        }
+        else if(distance<500)
+        {
+            fire(2.5);
+        }
+        else if(distance<800)
+        {
+            fire(1.5);
+        }
+        else
+        {
+            fire(0.5);
+        }
     }
 
 
