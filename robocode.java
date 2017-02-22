@@ -3,15 +3,12 @@ import robocode.*;
 
 public class mrRobot extends Robot {
     public void run() {
+	
         while (true) {
             ahead(100);
             turnGunRight(360);
-            turnRight(90);
-			setBodyColor(new Color(0, 200, 0));
-			setGunColor(new Color(0, 150, 50));
-			setRadarColor(new Color(0, 100, 100));
-			setBulletColor(new Color(255, 255, 100));
-			setScanColor(new Color(255, 200, 200));
+			ahead(100);
+            turnRight(120);		
         }
     }
 
@@ -34,16 +31,16 @@ public class mrRobot extends Robot {
         {
             fire(0.5);
         }
-        turnRight(30);
+		turnRight(30);
 		ahead(50);
     }
 
-
-    public void onHitByBullet(HitByBulletEvent event) {
-        back(200);
+    public void onHitByBullet(HitByBulletEvent event){
+		turnRight(30);
+		ahead(50);
     }
 
-    public void onHitWall(HitWallEvent e) {
+    public void onHitWall(HitWallEvent e){
         turnRight(90);
     }
 }
