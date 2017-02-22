@@ -45,19 +45,35 @@ public class mrRobot extends Robot {
         else
         {
             fire(0.5);
+            turnGunRight(5);
 			fire(0.5);
+            turnGunRight(5);
 			fire(0.5);
         }
 		turnRight(20);
 		ahead(30);
     }
 
-    public void onHitByBullet(HitByBulletEvent event){	
-		turnRight(20);
-		ahead(20);
+    public void onHitByBullet(HitByBulletEvent event){
+        if(getOthers() == 1){
+            turnRight(20);
+            ahead(20);
+        }
+        else{
+            get
+        }
+
     }
 
     public void onHitWall(HitWallEvent e){      
 		turnRight(30);
+    }
+
+    void onHitRobot(HitRobotEvent event) {
+        if (event.getBearing() > -90 && event.getBearing() <= 90) {
+            back(100);
+        } else {
+            ahead(100);
+        }
     }
 }
