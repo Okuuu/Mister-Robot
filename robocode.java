@@ -1,23 +1,22 @@
 package man;
 import robocode.*;
 
+int getOthers;
+
 public class mrRobot extends Robot {
     public void run() {
 	
         while (true) {
-            if(getOthers != 1){
                 ahead(100);
-                turnGunRight(360);
+                turnRadarRight(360);
                 turnRight(120);
                 ahead(100);
-            }
-            else{
              turnGunRight(360);
             }
         }
-    }
 
     public void onScannedRobot(ScannedRobotEvent e) {
+                turnGunRight(getRadarHeading());
         double distance = e.getDistance();
 
         if(distance<200)
