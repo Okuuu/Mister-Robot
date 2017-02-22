@@ -4,22 +4,18 @@ import robocode.*;
 int getOthers;
 
 public class mrRobot extends Robot {
-    setAdjustRadarForGunTurn(true);
-    
     public void run() {
 	
         while (true) {
                 ahead(100);
-                turnRadarRight(360);
+                turnGunRight(360);
                 turnRight(120);
                 ahead(100);
-             turnGunRight(360);
+                turnGunRight(360);
             }
         }
 
     public void onScannedRobot(ScannedRobotEvent e) {
-
-        turnGunRight(getRadarHeading());
 
         double distance = e.getDistance();
 
